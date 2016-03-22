@@ -4,11 +4,10 @@ title:      "nano-er 的第一篇文章"
 subtitle:   "测试篇"
 date:       2016-03-22 
 author:     "Liu Xin"
-header-img: "img/welcome.jpg"
+header-img: "img/post-bg-welcome.jpg"
 catalog: true
 tags:
-    - OS
-    
+    - OS 
 ---
 
 > 庆祝纳米非官方网站成立第一天！
