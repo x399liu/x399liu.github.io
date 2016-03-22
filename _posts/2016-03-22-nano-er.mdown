@@ -1,0 +1,27 @@
+---
+layout:     post
+title:      "nano-er 的第一篇文章"
+subtitle:   "测试篇"
+date:       2016-03-22 
+author:     "Liu Xin"
+header-img: "img/welcome.jpg"
+catalog: true
+tags:
+    - OS
+    
+---
+
+> 庆祝纳米非官方网站成立第一天！
+
+
+## 前方发来贺电 
+
+呃。。其实我就是试一下刚学的markdown
+
+## 大家有什么文章和好主意以及建议的话就po给我吧～
+
+我还是初学，代码也是东拉西扯的，动态的内容也后会慢慢加的，等我学会了再说，表着急～
+
+
+
+
