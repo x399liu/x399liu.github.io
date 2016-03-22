@@ -4,7 +4,7 @@ SEOTitle: 刘鑫的博客 | Lx Blog
 header-img: img/home-bg.jpg
 email: 15514657777@163.com
 description: "关于纳米的日常 | 刘鑫的博客"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 肖玉, Lynn, 肖玉的男朋友"
+keyword: "Linux, Unix, OS"
 url: "http://nano-er.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -68,7 +68,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "纳米这么小，世界那么大，我想去看看。"
+sidebar-about-description: "单身好青年。"
 sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
