@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "I'm liu xin"
 date:   2016-03-21 17:56:42 +0800
 categories: jekyll update
 ---
