@@ -7,7 +7,7 @@ description: "关于纳米的日常 | 刘鑫的博客"
 keyword: "Linux, Unix, OS"
 url: "http://nano-er.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
-
+abouturl: /about/
 
 
 # SNS settings
