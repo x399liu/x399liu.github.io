@@ -134,7 +134,7 @@ email: "15514657777@163.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+author_blurb: "我是刘鑫，上园村单身好青年，喜欢弹吉他、打篮球、摄影、编程、设计、物理，理想是当一只浪漫科研狗。"
 author_blurb_image: "/img/author.png"
 
 ##################
