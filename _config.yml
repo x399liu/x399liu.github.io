@@ -1,105 +1,48 @@
+
 # Site settings
-title: Nano-er
-SEOTitle: 刘鑫的博客 | Lx Blog
-header-img: img/home-bg.jpg
-email: 15514657777@163.com
-description: "关于纳米的日常 | 刘鑫的博客"
-keyword: "Linux, Unix, OS"
-url: "http://nano-er.com"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
-hiurl: /hi/
-nanourl: /nano/
-erurl: /er/
 
+# NB! Set your site's url, otherwise stuff will break :)
 
-# SNS settings
-RSS: false
-weibo_username:     陆小寻同学
-zhihu_username:     huxpro
-github_username:    x399liu
-#twitter_username:  huxpro
-facebook_username:  huxpro
+url: "www.nano-er.com"
 
+# If you're hosting your site at a Project repository on GitHub pages
+# (https://yourusername.github.io/repository-name)
+# and NOT your user repository (https://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+#
+# NB! Without this *nothing* will work, because it's used in every path :)
 
+baseurl: 
 
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+# Google tracking id to track your visitors
 
-pygments: true
-safe: true
-auto: true
+google-tracking-id: "UA-35880426-4"
 
+# Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
 
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+force-https: True
 
+#############
+# HTML Head #
+#############
 
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
-kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
-
-
-
-# Disqus settings
-#disqus_username: _your_disqus_short_name_
-
-# Duoshuo settings
-duoshuo_username: 刘鑫同学
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
-
-
-
-# Analytics settings
-# Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
-# Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
-
-
-
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "单身好青年。"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
-
-# Friends
-friends: [
-    {
-        title: "刘鑫的lofter",
-        href: "http://x399liu.lofter.com"
-    },{
-        title: "刘鑫的简书",
-        href: "http://www.jianshu.com/users/0b5fd4fd5c17/latest_articles"
-    }
-]
-
-# er-------------------------=========================================
-# ====================================================================
+lang: "en"
+author: "Liu Xin"
+title: "{ nano-er }"
+description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
+keywords: "smith, jones, personal, jekyll, theme"
 favicon: "/img/favicon.ico"
+
+################
+# Header layout #
+################
+
 black-favicon: "/img/black-lab-glass.ico"
+
 background-img: "../img/intro-bg.jpg"
+
 ##############################
 # Dynamic Text on the Header #
 ##############################
@@ -113,9 +56,10 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
-  - text: "Hi, Nano world."
+  - text: "Where’s your will to be weird?"
 
-me-img: "/img/author.png"
+me-img: "/img/jetpacktocat.png"
+
 ##############################
 # Color the browser elements #
 ##############################
@@ -240,5 +184,6 @@ paginate_path: "blog/page:num/"
 sass:
   style: compressed
 
-
-
+gems:
+  - jekyll-paginate
+  - jemoji
