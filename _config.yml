@@ -10,6 +10,7 @@ baseurl: ""                             # for example, '/blog' if your blog host
 abouturl: /about/
 codeurl: /code/
 fragmenturl: /fragment/
+erurl: /er/
 
 
 # SNS settings
