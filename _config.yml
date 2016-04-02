@@ -104,10 +104,6 @@ disqus-shortname:
 
 syntax-highlight: True
 
-comments :
-  provider : duoshuo
-duoshuo :
-    short_name : nano-er
 
 
 ############
