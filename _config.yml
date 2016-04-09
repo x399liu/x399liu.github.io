@@ -110,16 +110,16 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
+  - image: "/img/timeline/2016-3.png"
     date: "March 2016 - Today"
     description: "一起春游"
-  - image: "/img/timeline/baracktocat.jpg"
+  - image: "/img/timeline/2014-10.png"
     date: "October 2014"
     description: "集体大扫除"
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/2014-9.png"
 
 ###########
 # Contact #
