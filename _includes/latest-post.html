@@ -9,6 +9,8 @@
 
 
         {% assign post = site.posts.first %}
+
+        {% assign post = site.posts.second %}
         
         <h4> <strong> {{ post.date | date_to_string }} </strong>
           <small>.
@@ -22,7 +24,7 @@
 
         {{ post.content | truncatewords: site.post-preview-words | strip_html | markdownify }}
 
-        <h4><a href="{{site.baseurl}}/blog/">View more posts</a></h4> 
+        <h4><a href="{{site.baseurl}}/blog/">文章列表</a></h4> 
 
       </div>
     </div>
