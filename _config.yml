@@ -170,7 +170,7 @@ social:
 
 pages_list:
   About: 'about'
-  Blog: 'latest-post'
+  Blog: 'post-list'
   Timeline: 'timeline'
   Contact: 'contact'
 
