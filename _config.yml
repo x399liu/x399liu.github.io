@@ -84,9 +84,9 @@ icon-192p: "/img/web-app/icon-192p.png"
 # Blog #
 ########
 
-post-preview-words: 96
+post-preview-words: 10
 
-paginate: 5
+paginate: 10
 
 email-share: True
 fb-share: True
