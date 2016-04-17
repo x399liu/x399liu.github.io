@@ -8,6 +8,7 @@
         {{ page.content | markdownify }}
 
 
+<<<<<<< HEAD
         {% assign post = site.posts.first %}
 
         <section id="page" class="container content-section text-center">
@@ -32,6 +33,29 @@
     </section>
 
         {% assign post = site.posts.second %}
+=======
+
+
+<h4 align="left">
+  <strong>{{ post.date | date_to_string }}</strong>
+  <small>.
+    <a class="category" href="{{site.baseurl}}/categories/{{ post.category | downcase }}.html">
+      {{ post.category }}
+    </a>
+  .</small>
+  <br class="visible-xs-block">
+  <a href="{{site.baseurl}}{{post.url}}">
+    <strong>{{ post.title }}</strong>
+  </a>
+  <br class="visible-xs-block">
+  <small><a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
+</h4>
+
+
+
+
+        <!-- {% assign post = site.posts.first %}
+>>>>>>> parent of bed6366... 123
         
         <h4> <strong> {{ post.date | date_to_string }} </strong>
           <small>.
@@ -45,7 +69,11 @@
 
         {{ post.content | truncatewords: site.post-preview-words | strip_html | markdownify }}
 
+<<<<<<< HEAD
         <h4><a href="{{site.baseurl}}/blog/">文章列表</a></h4> 
+=======
+        <h4><a href="{{site.baseurl}}/blog/">View more posts</a></h4> -->
+>>>>>>> parent of bed6366... 123
 
       </div>
     </div>
