@@ -120,7 +120,8 @@ events:
 # First image of the Timeline
 
 timeline-img: "/img/timeline/2014-9.png"
-
+date: "September 2014"
+description: "启程"
 ###########
 # Contact #
 ###########
@@ -151,7 +152,7 @@ social:
     url: "http://twitter.com/"
   - title: "github"
     url: "http://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
+  - title: "fa-weixin"
     url: "http://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
   - title: "rss"
     url: "/feed.xml"
