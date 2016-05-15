@@ -152,7 +152,7 @@ social:
     url: "http://twitter.com/"
   - title: "github"
     url: "http://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "fa-weixin"
+  - title: "weixin"
     url: "http://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
   - title: "rss"
     url: "/feed.xml"
