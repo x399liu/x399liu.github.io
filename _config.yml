@@ -110,12 +110,15 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/2014-10.png"
-    date: "October 2014"
-    description: "集体大扫除"
+  - image: "/img/timeline/2016-5.png"
+    date: "May 2016"
+    description: "生化实验"
   - image: "/img/timeline/2016-3.png"
-    date: "March 2016 - Today"
-    description: "一起春游"
+    date: "March 2016"
+    description: "一起春游"  
+  - image: "/img/timeline/2016-4.png"
+    date: "March 2016"
+    description: "BBQ"
   - image: "/img/timeline/2014-10.png"
     date: "October 2014"
     description: "集体大扫除"
