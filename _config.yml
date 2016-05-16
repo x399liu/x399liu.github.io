@@ -55,7 +55,7 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Hi, Nano world."
-  - text: "纳米这么小，世界那么大。"
+  - text: "BJTU & UW : NanoMaterial and Technology"
 
 me-img: "/img/jetpacktocat.png"
 
@@ -84,7 +84,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 # Blog #
 ########
 
-post-preview-words: 10
+post-preview-words: 50
 
 paginate: 10
 
@@ -110,6 +110,9 @@ syntax-highlight: True
 ############
 
 events:
+  - image: "/img/timeline/2014-10.png"
+    date: "October 2014"
+    description: "集体大扫除"
   - image: "/img/timeline/2016-3.png"
     date: "March 2016 - Today"
     description: "一起春游"
@@ -117,11 +120,12 @@ events:
     date: "October 2014"
     description: "集体大扫除"
 
+
+
 # First image of the Timeline
 
 timeline-img: "/img/timeline/2014-9.png"
-date: "September 2014"
-description: "启程"
+
 ###########
 # Contact #
 ###########
