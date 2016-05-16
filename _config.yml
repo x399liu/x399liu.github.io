@@ -55,7 +55,7 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Hi, Nano world."
-  - text: "BJTU & UW : NanoMaterial and Technology"
+  - text: "BJTU NanoMaterial and Technology"
 
 me-img: "/img/jetpacktocat.png"
 
