@@ -21,10 +21,12 @@
 
         <h4><a href="{{site.baseurl}}/blog/">查看更多文章</a></h4>
 
+
+
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
