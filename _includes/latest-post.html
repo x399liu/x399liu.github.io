@@ -26,7 +26,7 @@
   <ul align="left" class="post-list">
     {% for post in site.posts %}
       <li align="left">
-        <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a align="left" class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
