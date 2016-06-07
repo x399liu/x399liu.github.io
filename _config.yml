@@ -153,12 +153,12 @@ author_blurb_image: "/img/author.png"
 ##################
 
 social:
-  - title: "facebook"
-    url: "http://facebook.com/"
+  - title: "child"
+    url: "http://liuxin.in/"
   - title: "weibo"
     url: "http://weibo.com/u/2377304267?refer_flag=1001030102_&is_all=1"
   - title: "github"
-    url: "http://github.com/PanosSakkos/personal-jekyll-theme"
+    url: "http://github.com/x399liu"
   - title: "weixin"
     url: "https://mp.weixin.qq.com/s?__biz=MjM5MzgzMjI5OQ==&mid=2649984218&idx=1&sn=132d15e4665242aca49f554e8fd72c8d&scene=0&key=b28b03434249256b7f4e5074dc162b5f2b9533622ad9475ce32dcfb1965edfd88315d03a44855f606648d3d7edc6bc05&ascene=0&uin=OTA3NjA0MzA3&devicetype=iMac+MacBookAir6%2C2+OSX+OSX+10.11.3+build(15D21)&version=11020201&pass_ticket=7cBTLaDpoX9ZJONWhvpex1bTYeKU3PLAzxT6VNgHodygKTbDMycQXz23bOcTnrqO"
   - title: "rss"
