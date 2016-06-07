@@ -23,10 +23,10 @@
 
 
 
-  <ul class="post-list">
+
     {% for post in site.posts %}
       
-      <li align="left">
+      <h4 align="left">
         <span class="post-meta"><strong>{{ post.date | date: "%b %-d, %Y" }}</strong></span> <!-- 日期 -->
 
         <small>.
@@ -38,10 +38,10 @@
         <a align="left" class="post-link" href="{{ post.url | prepend: site.baseurl }}"><strong>{{ post.title }}</strong></a> <!-- 标题 -->
 
         <small><a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small> <!-- 评论 -->
-      </li>
+      </h4>
 
     {% endfor %}
-  </ul>
+
 
 
 
