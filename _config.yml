@@ -110,7 +110,7 @@ syntax-highlight: True
 ############
 
 events:
-    image: "/img/timeline/2016-8.png"
+  - image: "/img/timeline/2016-8.png"
     date: "Aug 2016"
     description: "初到加拿大"
   - image: "/img/timeline/2016-5.png"
