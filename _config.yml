@@ -12,9 +12,7 @@ url: "http://www.nano-er.com"
 # NB! Without this *nothing* will work, because it's used in every path :)
 
 markdown: kramdown
-kramdown:
-  input:  GFM
-  use_coderay: true
+
 # mathjax
 
 baseurl: 
