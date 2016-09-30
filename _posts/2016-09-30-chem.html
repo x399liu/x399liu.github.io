@@ -1106,7 +1106,7 @@ MathJax.Hub.Config({
   showProcessingMessages: false
 });
 </script>
-<title>Math Techniques for Quantum Mechanics\\量子力学的数学工具</title></head><body><article class="markdown-body"><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<title>Math Techniques for Quantum Mechanics\\量子力学的数学工具</title></head><body><article class="markdown-body"><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 <blockquote>
 <p>这是chem356<strong>quantum chemistry</strong>中的Chapter2学习总结</p>
@@ -1115,11 +1115,13 @@ MathJax.Hub.Config({
 <h2 id="1-intro-to-differential-equations92"><a name="user-content-1-intro-to-differential-equations92" href="#1-intro-to-differential-equations92" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>1. Intro to differential equations\微分式子基础</h2>
 <h3 id="second-order-homogeneous-linear-differential-equation-with-constant-coefficients92"><a name="user-content-second-order-homogeneous-linear-differential-equation-with-constant-coefficients92" href="#second-order-homogeneous-linear-differential-equation-with-constant-coefficients92" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>second-order homogeneous linear differential equation with constant coefficients\二阶常系数齐次线性方程</h3>
 <p>It&rsquo;s simple to solve the equation in three steps//很简单分三步：</p>
-<ol>
-<li>find the eigen equation\求特征方程；</li>
-<li>calculate the eigen value\算特征根；</li>
-<li>
-<p>get the get the general solutions\得到对应齐次方程通解</p>
+<div class="codehilite"><pre>1. find the eigen equation\\求特征方程；
+2. calculate the eigen value\\算特征根；
+3. get the get the general solutions\\得到对应齐次方程通解
+</pre></div>
+
+
+<blockquote>
 <p>eg:<br />
 找到$\frac{d^2y}{dx^2}-2\frac{dy}{dx}-3y=0$的通解<br />
 eigen equation\特征方程:<br />
@@ -1128,8 +1130,7 @@ eigen value\特征根：<br />
 $\lambda_1 = 3, \lambda_2 = -1$<br />
 general solutions\通解：<br />
 $Y = C_1 e^{3x} + C_2 e^{-x}$</p>
-</li>
-</ol>
+</blockquote>
 <h3 id="second-order-non-homogeneous-linear-differential-equation-with-constant-coefficient92"><a name="user-content-second-order-non-homogeneous-linear-differential-equation-with-constant-coefficient92" href="#second-order-non-homogeneous-linear-differential-equation-with-constant-coefficient92" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>second order non homogeneous linear differential equation with constant coefficient\二阶常系数非齐次线性方程</h3>
 <p>对于$\frac{d^2y}{dx^2}＋a\frac{dy}{dx}+by=f(x)$，首先要找到对应的齐次方程$\frac{d^2y}{dx^2}＋a\frac{dy}{dx}+by=0$的通解$Y$，再找到原非齐次方程的一个特解 $y^*$，则原非齐次方程的通解 $y=Y+y^*$</p>
 <p>Case1: $f(x)=Ax + B$</p>
