@@ -11,6 +11,9 @@ url: "http://www.nano-er.com"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
+markdown: redcarpet
+# mathjax
+
 baseurl: 
 
 # Google tracking id to track your visitors
