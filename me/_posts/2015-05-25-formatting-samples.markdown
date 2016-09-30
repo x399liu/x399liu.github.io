@@ -4,6 +4,15 @@ title: "Formatting Samples"
 date: 2015-05-25
 categories:
 ---
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+$$\lambda^2-2\lambda-3=0$$
+
+找到\\(\frac{d^2y}{dx^2}-2\frac{dy}{dx}-3y=0\\)的通解
+
+
 
 Polar Bear supports GFM!
 The following text has been taken from [this page](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet).
