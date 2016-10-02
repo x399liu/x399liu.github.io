@@ -13,13 +13,13 @@ url: "http://www.nano-er.com"
 
 highlighter: rouge
 markdown: kramdown
-kramdown:
-  input: GFM
-  auto_ids: true
-  syntax_highlighter: rouge
-# mathjax
+#kramdown:
+  #input: GFM
+  #auto_ids: true
+  #syntax_highlighter: rouge
 
-baseurl: 
+
+baseurl: ""
 
 # Google tracking id to track your visitors
 

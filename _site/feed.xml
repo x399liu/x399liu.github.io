@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>{ nano-er }</title>
+		<description>Blog and website of Liu Xin, blogging mainly for tech. Opinions expressed are mine.</description>
+		<link>http://www.nano-er.com</link>
+		<atom:link href="http://www.nano-er.com/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Math Techniques for Quantum Mechanics\\量子力学的数学工具</title>
+				
+				
+					<description>&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;
+&lt;/script&gt;
+
+</description>
+				
+				<pubDate>Fri, 30 Sep 2016 00:00:00 -0400</pubDate>
+				<link>http://www.nano-er.com/diary/2016/09/30/chem.html</link>
+				<guid isPermaLink="true">http://www.nano-er.com/diary/2016/09/30/chem.html</guid>
+			</item>
+		
+			<item>
+				<title>Chem</title>
+				
+				
+					<description>&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;layout&quot; content=&quot;post&quot;&gt;
+&lt;meta name=&quot;tags&quot; content=&quot;[ &#39;tutorial&#39; ]&quot;&gt;
+&lt;meta name=&quot;section-type&quot; content=&quot;post&quot;&gt;
+&lt;meta name=&quot;category&quot; content=&quot;diary&quot;&gt;&lt;style&gt;body {
+  width: 45em;
+  border: 1px solid #ddd;
+  outline: 1300px solid #fff;
+  margin: 16px auto;
+}
+
+</description>
+				
+				<pubDate>Fri, 30 Sep 2016 00:00:00 -0400</pubDate>
+				<link>http://www.nano-er.com/2016/09/30/chem.html</link>
+				<guid isPermaLink="true">http://www.nano-er.com/2016/09/30/chem.html</guid>
+			</item>
+		
+			<item>
+				<title>Tonight I can Write</title>
+				
+				
+					<description>&lt;audio controls=&quot;controls&quot; height=&quot;100&quot; width=&quot;100&quot;&gt;
+  &lt;source src=&quot;tonight.mp3&quot; type=&quot;audio/mp3&quot; /&gt;
+Your browser does not support the audio tag.
+&lt;/audio&gt;
+
+</description>
+				
+				<pubDate>Sat, 10 Sep 2016 00:00:00 -0400</pubDate>
+				<link>http://www.nano-er.com/diary/2016/09/10/tonight.html</link>
+				<guid isPermaLink="true">http://www.nano-er.com/diary/2016/09/10/tonight.html</guid>
+			</item>
+		
+			<item>
+				<title>纳米1401毛概社会实践活动</title>
+				
+				
+					<description>&lt;blockquote&gt;
+  &lt;p&gt;此文章借王晓青老师毛概课社会实践活动，记录下纳米1401班3月份出游的回忆～在此与各位分享～&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				
+				<pubDate>Sun, 15 May 2016 00:00:00 -0400</pubDate>
+				<link>http://www.nano-er.com/politics/2016/05/15/politics.html</link>
+				<guid isPermaLink="true">http://www.nano-er.com/politics/2016/05/15/politics.html</guid>
+			</item>
+		
+			<item>
+				<title>陆小寻学堂——Matlab</title>
+				
+				
+					<description>&lt;h1 id=&quot;matlab&quot;&gt;快速入门－－Matlab&lt;/h1&gt;
+
+</description>
+				
+				<pubDate>Sun, 17 Apr 2016 00:00:00 -0400</pubDate>
+				<link>http://www.nano-er.com/tech/2016/04/17/matlab.html</link>
+				<guid isPermaLink="true">http://www.nano-er.com/tech/2016/04/17/matlab.html</guid>
+			</item>
+		
+			<item>
+				<title>陆小寻学堂——Ruby</title>
+				
+				
+					<description>&lt;blockquote&gt;
+  &lt;p&gt;最近在学习网页制作，脚本语言自然是必不可少了，除了js，如今很热的ruby也是 Jekyll＋Github一套系统里的必用语句，下面是学习记录。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				
+				<pubDate>Sun, 03 Apr 2016 00:00:00 -0400</pubDate>
+				<link>http://www.nano-er.com/tech/2016/04/03/ruby.html</link>
+				<guid isPermaLink="true">http://www.nano-er.com/tech/2016/04/03/ruby.html</guid>
+			</item>
+		
+			<item>
+				<title>新加评论功能～</title>
+				
+				
+					<description>&lt;h2 id=&quot;section&quot;&gt;用“多说”代理，添加了评论功能。&lt;/h2&gt;
+
+</description>
+				
+				<pubDate>Sat, 02 Apr 2016 00:00:00 -0400</pubDate>
+				<link>http://www.nano-er.com/web/2016/04/02/%E6%96%B0%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD.html</link>
+				<guid isPermaLink="true">http://www.nano-er.com/web/2016/04/02/%E6%96%B0%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD.html</guid>
+			</item>
+		
+			<item>
+				<title>陆小寻学堂——R语言</title>
+				
+				
+					<description>&lt;blockquote&gt;
+  &lt;p&gt;数学建模的时候就听说了R语言的大名，然而当时没有时间学习，只好用matlab代替了R在统计方面的强大功能。这学期比较闲，所以系统学习了R和matlab，并比较了两者语言的不同之处。(全程英语装逼请不要介意嘻嘻)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				
+				<pubDate>Sat, 02 Apr 2016 00:00:00 -0400</pubDate>
+				<link>http://www.nano-er.com/tech/2016/04/02/r.html</link>
+				<guid isPermaLink="true">http://www.nano-er.com/tech/2016/04/02/r.html</guid>
+			</item>
+		
+			<item>
+				<title>4月你好</title>
+				
+				
+					<description>&lt;p&gt;板式捣鼓了差不多一个月了，从今天开始就要正式开始我的网页内容的编辑了。。。&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 02 Apr 2016 00:00:00 -0400</pubDate>
+				<link>http://www.nano-er.com/diary/2016/04/02/4%E6%9C%88%E4%BD%A0%E5%A5%BD.html</link>
+				<guid isPermaLink="true">http://www.nano-er.com/diary/2016/04/02/4%E6%9C%88%E4%BD%A0%E5%A5%BD.html</guid>
+			</item>
+		
+			<item>
+				<title>愚人节快乐</title>
+				
+				
+					<description>&lt;p&gt;大家愚人节快乐！&lt;/p&gt;
+</description>
+				
+				<pubDate>Fri, 01 Apr 2016 00:00:00 -0400</pubDate>
+				<link>http://www.nano-er.com/diary/2016/04/01/%E6%84%9A%E4%BA%BA%E8%8A%82%E5%BF%AB%E4%B9%90.html</link>
+				<guid isPermaLink="true">http://www.nano-er.com/diary/2016/04/01/%E6%84%9A%E4%BA%BA%E8%8A%82%E5%BF%AB%E4%B9%90.html</guid>
+			</item>
+		
+	</channel>
+</rss>

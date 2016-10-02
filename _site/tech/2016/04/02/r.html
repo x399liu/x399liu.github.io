@@ -1,0 +1,1379 @@
+
+<!-- Post Layout Start -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+  
+<!-- HEAD Start -->
+
+<head>
+  
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Blog and website of Liu Xin, blogging mainly for tech. Opinions expressed are mine.">
+  <meta name="author" content="Liu Xin">
+  <meta name="keywords" content="smith, jones, personal, jekyll, theme">
+  <link rel="canonical" href="/tech/2016/04/02/r.html">
+  <title>{ nano-er } | 陆小寻学堂——R语言</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- Custom CSS -->
+  <link href="/css/grayscale.css" rel="stylesheet">
+  
+
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/rrssb.css" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+  
+
+  
+
+  
+
+
+  <!-- iOS Web App mode -->
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon" sizes="36x36" href="/img/web-app/icon-36p.png">
+  <link rel="apple-touch-icon" sizes="48x48" href="/img/web-app/icon-48p.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/img/web-app/icon-72p.png">
+  <link rel="apple-touch-icon" sizes="96x96" href="/img/web-app/icon-96p.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/img/web-app/icon-144p.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="/img/web-app/icon-192p.png">
+
+  <!-- Android Web App mode -->
+
+  <link rel="manifest" href="/manifest.json">
+
+
+
+
+  
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#000000">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#000000">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+  
+
+
+  <!-- Syntax highlight in post pages -->
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/monokai_sublime.min.css">
+
+
+
+
+</head>
+
+<!-- HEAD End -->
+
+
+  <body>
+
+    
+<!-- Navigation Start -->
+
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+      
+        <a class="navbar-brand" href="/">
+      
+          <div>
+            
+              <img src="/img/black-lab-glass.ico" alt="">
+            
+            { nano-er }
+          </div>
+        </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        
+          <!-- Blog, Post, Tag and Error pages -->
+          
+            <li>
+            
+                <a href="/#about"> About </a>
+            
+            </li>
+          
+            <li>
+            
+              
+                <a href="/blog/"> Blog </a>
+              
+            
+            </li>
+          
+            <li>
+            
+                <a href="/#timeline"> Timeline </a>
+            
+            </li>
+          
+            <li>
+            
+                <a href="/#contact"> Contact </a>
+            
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Navigation End -->
+
+  
+  <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+    
+
+    <section id="post" class="container content-section text-center">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+
+          
+<!-- Swipe Instructions Start -->
+
+<div id="swipe-instruction">
+  <div>
+    <p><br><br><br></p>
+    <i id="hand-swipe" class="fa fa-hand-o-up"></i>
+    <p><strong>
+    
+      Did you know that you can navigate the posts by swiping left and right?
+    
+    </strong></p>
+    <button type="button" class="btn btn-default ok-btn close-swipe-instruction">
+      
+        Awesome!
+      
+    </button>
+  </div>
+</div>
+
+<!-- Swipe Instructions End -->
+
+
+          <h1><strong>陆小寻学堂——R语言</strong></h1>
+          <h4>
+            <strong>02 Apr 2016</strong>
+            <small>
+              . category:
+              <a class="category" href="/categories/tech.html">
+                tech
+              </a>.
+              <a href="/tech/2016/04/02/r.html#disqus_thread">Comments</a>
+              <br />
+              
+                <a class="tag" href="/tags/tutorial.html">#tutorial</a>
+              
+            </small>
+          </h4>
+
+          <blockquote>
+  <p>数学建模的时候就听说了R语言的大名，然而当时没有时间学习，只好用matlab代替了R在统计方面的强大功能。这学期比较闲，所以系统学习了R和matlab，并比较了两者语言的不同之处。(全程英语装逼请不要介意嘻嘻)</p>
+</blockquote>
+
+<h1 id="chapter-1-basic-r">Chapter 1 Basic R</h1>
+<p>In this chapter, I’m gonna talk about basic R expressions.
+We’ll start simple, with numbers, strings, and true/false values. 
+Then I’ll show you how to store those values in variables, and how to pass them to functions.
+I’ll show you how to get help on functions when you’re stuck.
+Finally we’ll load an R script in from a file.</p>
+
+<p>Let’s get started!</p>
+
+<h2 id="expressions">Expressions</h2>
+
+<p>Let’s try some simple math. Type the below command.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; 1 + 1 
+[1] 2
+</code></pre>
+</div>
+
+<p>There’s your result, <code class="highlighter-rouge">2</code>.</p>
+
+<p>Type the string <code class="highlighter-rouge">"I love Liu Xin"</code>. (Don’t forget the quotes!)</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; "I love Liu Xin"
+[1] "I love Liu Xin"
+</code></pre>
+</div>
+
+<p>Now try multiplying 6 times 7 (<code class="highlighter-rouge">*</code> is the multiplication operator).</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; 6 * 7
+[1] 42
+</code></pre>
+</div>
+
+<h2 id="logical-values">Logical Values</h2>
+
+<p>Some expressions return a “logical value”: <code class="highlighter-rouge">TRUE</code> or <code class="highlighter-rouge">FALSE</code>. (Many programming languages refer to these as “boolean” values.) Let’s try typing an expression that gives us a logical value:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; 3 &lt; 4
+[1] TRUE
+</code></pre>
+</div>
+
+<p>And another logical value (note that you need a double-equals sign to check whether two values are equal - a single-equals sign won’t work):</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; 2 + 2 == 5
+[1] FALSE
+</code></pre>
+</div>
+
+<p><code class="highlighter-rouge">T</code> and <code class="highlighter-rouge">F</code> are shorthand for <code class="highlighter-rouge">TRUE</code> and <code class="highlighter-rouge">FALSE</code>. Try this:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; T == TRUE
+[1] TRUE
+</code></pre>
+</div>
+
+<h2 id="variables">Variables</h2>
+
+<p>As in other programming languages, you can store values into a variable to access it later. Type <code class="highlighter-rouge">x &lt;- 42</code> to store a value in <code class="highlighter-rouge">x</code>.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; x &lt;- 42
+</code></pre>
+</div>
+
+<p><code class="highlighter-rouge">x</code> can now be used in expressions in place of the original result. Try dividing <code class="highlighter-rouge">x</code> by <code class="highlighter-rouge">2</code> (<code class="highlighter-rouge">/</code> is the division operator).</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; x / 2
+[1] 21
+</code></pre>
+</div>
+
+<p>You can re-assign any value to a variable at any time. Try assigning <code class="highlighter-rouge">"Arr, matey!"</code> to <code class="highlighter-rouge">x</code>. (Don’t forget the quotation marks!)</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; x &lt;- "Hi, Liu Xin!"
+</code></pre>
+</div>
+
+<p>You can print the value of a variable at any time just by typing its name in the console. Try printing the current value of <code class="highlighter-rouge">x</code>.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; x
+[1] "Hi, Liu Xin!"
+</code></pre>
+</div>
+
+<p>Now try assigning the <code class="highlighter-rouge">TRUE</code> logical value to <code class="highlighter-rouge">x</code>.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; x &lt;- TRUE
+</code></pre>
+</div>
+
+<h2 id="functions">Functions</h2>
+
+<p>You call a function by typing its name, followed by one or more arguments to that function in parenthesis. Let’s try using the <code class="highlighter-rouge">sum</code> function, to add up a few numbers. Enter:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; sum(1, 3, 5)
+[1] 9
+</code></pre>
+</div>
+
+<p>Some arguments have names. For example, to repeat a value 3 times, you would call the <code class="highlighter-rouge">rep</code> function and provide its <code class="highlighter-rouge">times</code> argument:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; rep("Yo ho!", times = 3)
+[1] "Yo ho!" "Yo ho!" "Yo ho!"
+</code></pre>
+</div>
+
+<p>Try calling the <code class="highlighter-rouge">sqrt</code> function to get the square root of <code class="highlighter-rouge">16</code>.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; sqrt(16)
+[1] 4
+</code></pre>
+</div>
+
+<h2 id="help">Help</h2>
+
+<p><code class="highlighter-rouge">help(functionname)</code> brings up help for the given function. Try displaying help for the <code class="highlighter-rouge">sum</code> function:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; help(sum)
+sum                    package:base                    R Documentation
+
+Sum of Vector Elements
+
+Description:
+
+     'sum' returns the sum of all the values present in its arguments.
+
+Usage:
+
+     sum(..., na.rm = FALSE)
+...
+</code></pre>
+</div>
+
+<p>(Don’t worry about that optional <code class="highlighter-rouge">na.rm</code> argument, we’ll cover that later.)</p>
+
+<p><code class="highlighter-rouge">example(functionname)</code> brings up examples of usage for the given function. Try displaying examples for the <code class="highlighter-rouge">min</code> function:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; example(min)
+
+min&gt; require(stats); require(graphics)
+
+min&gt;  min(5:1, pi) #-&gt; one number
+[1] 1
+
+min&gt; pmin(5:1, pi) #-&gt;  5  numbers
+[1] 3.141593 3.141593 3.000000 2.000000 1.000000
+
+...
+</code></pre>
+</div>
+
+<p>Now try bringing up help for the <code class="highlighter-rouge">rep</code> function:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; help(rep)
+rep                    package:base                    R Documentation
+
+Replicate Elements of Vectors and Lists
+
+Description:    
+
+     'rep' replicates the values in 'x'. It is a generic function, and
+     the (internal) default method is described here.
+...
+</code></pre>
+</div>
+
+<h2 id="files">Files</h2>
+
+<p>Typing commands each time you need them only works for short scripts, of course. R commands can also be written in plain text files (with a “.R” extension, by convention) for executing later. You can run them directly from the command line, or from within a running R instance.</p>
+
+<p>We’ve stored a couple sample scripts for you. You can list the files in the current directory from within R, by calling the <code class="highlighter-rouge">list.files</code> function. Try it now:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; list.files()
+[1] "bottle1.R" "bottle2.R"
+</code></pre>
+</div>
+
+<p>To run a script, pass a string with its name to the source function. Try running the <code class="highlighter-rouge">"bottle1.R"</code> script:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; source("bottle1.R")
+[1] "This be a message in a bottle1.R!"
+</code></pre>
+</div>
+
+<p>Now try running <code class="highlighter-rouge">"bottle2.R"</code>:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; source("bottle2.R")
+[1] "Will ye be me pen pal?"
+</code></pre>
+</div>
+
+<h2 id="conclusion-in-chinese">Conclusion in Chinese</h2>
+
+<p>这一节我们简单介绍了一下R的数字，字符，布尔值的表示方法，怎样获得帮助和打开写好的R文件。接下来两节将讲解R中最重要的数据结构：向量(vector)和矩阵(matrix)。</p>
+
+<h1 id="chapter-2-vectors">Chapter 2 Vectors</h1>
+
+<p>In Chapter 2, we’re gonna deal with vectors! You kown, R relies on vectors for many of its operations. This inclusdes basic plots – I’ll have you drawing graphs by the end of this chapter!</p>
+
+<h2 id="vectors">Vectors</h2>
+
+<p>A vector’s values can be numbers, strings, logical values, or any other type, as long as they’re all the same type. Try creating a vector of numbers, like this:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; c(4, 7, 9)
+[1] 4 7 9
+</code></pre>
+</div>
+
+<p>The <code class="highlighter-rouge">c</code> function (<code class="highlighter-rouge">c</code> is short for Combine) creates a new vector by combining a list of values.</p>
+
+<p>Now try creating a vector with strings:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; c('a', 'b', 'c')
+[1] "a" "b" "c"
+</code></pre>
+</div>
+
+<p>Vectors cannot hold values with different modes (types). Try mixing modes and see what happens:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; c(1, TRUE, "three")
+[1] "1"    "TRUE"  "three"
+</code></pre>
+</div>
+
+<p>All the values were converted to a single mode (characters) so that the vector can hold them all.</p>
+
+<h2 id="sequence-vectors">Sequence Vectors</h2>
+
+<p>If you need a vector with a sequence of numbers you can create it with <code class="highlighter-rouge">start:end</code> notation. Let’s make a vector with values from 5 through 9:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; 5:9
+[1]  5  6  7  8  9
+</code></pre>
+</div>
+
+<p>A more versatile way to make sequences is to call the <code class="highlighter-rouge">seq</code> function. Let’s do the same thing with <code class="highlighter-rouge">seq</code>:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; seq(5, 9)
+[1] 5 6 7 8 9
+</code></pre>
+</div>
+
+<p><code class="highlighter-rouge">seq</code> also allows you to use increments other than 1. Try it with steps of 0.5:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; seq(5, 9, 0.5)
+[1] 5.0 5.5 6.0 6.5 7.0 7.5 8.0 8.5 9.0
+</code></pre>
+</div>
+
+<p>Now try making a vector with integers from 9 down to 5:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; 9:5
+[1] 9 8 7 6 5
+</code></pre>
+</div>
+
+<h2 id="vector-access">Vector Access</h2>
+
+<p>We’re going to create a vector with some strings in it for you, and store it in the <code class="highlighter-rouge">sentence</code> variable.</p>
+
+<p>You can retrieve an individual value within a vector by providing its numeric index in square brackets. Try getting the third value:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; sentence &lt;- c('walk', 'the', 'plank')
+&gt; sentence[3]
+[1] "plank"
+</code></pre>
+</div>
+
+<p>Many languages start array indices at 0, but R’s vector indices start at 1. Get the first value by typing:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; sentence[1]
+[1] "walk"
+</code></pre>
+</div>
+
+<p>You can assign new values within an existing vector. Try changing the third word to “dog”:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; sentence[3] &lt;- "dog"
+</code></pre>
+</div>
+
+<p>If you add new values onto the end, the vector will grow to accommodate them. Let’s add a fourth word:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; sentence[4] &lt;- 'to'
+</code></pre>
+</div>
+
+<p>You can use a vector within the square brackets to access multiple values. Try getting the first and third words:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; sentence[c(1, 3)]
+[1] "walk" "dog"
+</code></pre>
+</div>
+
+<p>This means you can retrieve ranges of values. Get the second through fourth words:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; sentence[2:4]
+[1] "the" "dog" "to"
+</code></pre>
+</div>
+
+<p>You can also set ranges of values; just provide the values in a vector. Add words 5 through 7:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; sentence[5:7] &lt;- c('the', 'poop', 'deck')
+</code></pre>
+</div>
+
+<p>Now try accessing the sixth word of the <code class="highlighter-rouge">sentence</code> vector:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; sentence[6]
+[1] "poop"
+</code></pre>
+</div>
+
+<h2 id="vector-names">Vector Names</h2>
+
+<p>For this challenge, we’ll make a 3-item vector for you, and store it in the <code class="highlighter-rouge">ranks</code> variable.</p>
+
+<p>You can assign names to a vector’s elements by passing a second vector filled with names to the names assignment function, like this:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; ranks &lt;- 1:3
+&gt; names(ranks) &lt;- c("first", "second", "third")
+</code></pre>
+</div>
+
+<p>Assigning names for a vector can act as useful labels for the data. Below, you can see what our vector looks like now.</p>
+
+<p>You can also use the names to access the vector’s values. Try getting the value for the “first” rank:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; ranks
+ first second  third
+ 1      2      3
+&gt; ranks["first"]
+first 
+ 1
+</code></pre>
+</div>
+
+<p>Now set the current value for the “third” rank to a different value using the name rather than the position.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; ranks["third"] &lt;- 4
+Plotting One Vector 2.5
+</code></pre>
+</div>
+
+<p>The barplot function draws a bar chart with a vector’s values. 
+We’ll make a new vector for you, and store it in the vesselsSunk variable.</p>
+
+<p>Now try passing the vector to the barplot function:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; vesselsSunk &lt;- c(4, 5, 1)
+&gt; barplot(vesselsSunk)
+</code></pre>
+</div>
+
+<p>If you assign names to the vector’s values, R will use those names as labels on the bar plot. Let’s use the names assignment function again:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; names(vesselsSunk) &lt;- c("England", "France", "Norway")
+</code></pre>
+</div>
+
+<p>Now, if you call barplot with the vector again, you’ll see the labels:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; barplot(vesselsSunk)
+</code></pre>
+</div>
+
+<p>Now, try calling barplot on a vector of integers ranging from 1 through 100:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; barplot(1:100)
+</code></pre>
+</div>
+
+<h2 id="vector-math">Vector Math</h2>
+
+<p>Most arithmetic operations work just as well on vectors as they do on single values. We’ll make another sample vector for you to work with, and store it in the a variable.</p>
+
+<p>If you add a scalar (a single value) to a vector, the scalar will be added to each value in the vector, returning a new vector with the results. Try adding 1 to each element in our vector:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; a &lt;- c(1, 2, 3)
+&gt; a + 1
+[1] 2 3 4
+</code></pre>
+</div>
+
+<p>The same is true of division, multiplication, or any other basic arithmetic. Try dividing our vector by 2:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; a / 2
+[1] 0.5 1.0 1.5
+</code></pre>
+</div>
+
+<p>Now try multiplying our vector by 2:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; a * 2
+[1] 2 4 6
+</code></pre>
+</div>
+
+<p>If you add two vectors, R will take each value from each vector and add them. We’ll make a second vector for you to experiment with, and store it in the b variable.</p>
+
+<p>Try adding it to the a vector:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; b &lt;- c(4, 5, 6)
+&gt; a + b
+[1] 5 7 9
+</code></pre>
+</div>
+
+<p>Now try subtracting b from a:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; a - b
+[1] -3 -3 -3
+</code></pre>
+</div>
+
+<p>You can also take two vectors and compare each item. See which values in the a vector are equal to those in a second vector:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; a == c(1, 99, 3)
+[1]  TRUE FALSE  TRUE
+</code></pre>
+</div>
+
+<p>Notice that R didn’t test whether the whole vectors were equal; it checked each value in the a vector against the value at the same index in our new vector.</p>
+
+<p>Check if each value in the a vector is less than the corresponding value in another vector:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; a &lt; c(1, 99, 3)
+[1] FALSE  TRUE FALSE
+</code></pre>
+</div>
+
+<p>Functions that normally work with scalars can operate on each element of a vector, too. Try getting the sine of each value in our vector:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; sin(a)
+[1] 0.8414710 0.9092974 0.1411200
+</code></pre>
+</div>
+
+<p>Now try getting the square roots with sqrt:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; sqrt(a)
+[1] 1.000000 1.414214 1.732051
+</code></pre>
+</div>
+
+<h2 id="scatter-plots">Scatter Plots</h2>
+
+<p>The plot function takes two vectors, one for X values and one for Y values, and draws a graph of them.</p>
+
+<p>Let’s draw a graph showing the relationship of numbers and their sines.</p>
+
+<p>First, we’ll need some sample data. We’ll create a vector for you with some fractional values between 0 and 20, and store it in the x variable.</p>
+
+<p>Now, try creating a second vector with the sines of those values:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; x &lt;- seq(1, 20, 0.1)
+&gt; y &lt;- sin(x)
+</code></pre>
+</div>
+
+<p>Then simply call plot with your two vectors:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; plot(x, y)
+</code></pre>
+</div>
+
+<p>Great job! Notice on the graph that values from the first argument (x) are used for the horizontal axis, and values from the second (y) for the vertical.</p>
+
+<p>Your turn. We’ll create a vector with some negative and positive values for you, and store it in the values variable.</p>
+
+<p>We’ll also create a second vector with the absolute values of the first, and store it in the absolutes variable.</p>
+
+<p>Try plotting the vectors, with values on the horizontal axis, and absolutes on the vertical axis.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; values &lt;- -10:10
+&gt; absolutes &lt;- abs(values)
+&gt; plot(values, absolutes)
+</code></pre>
+</div>
+
+<h2 id="na-values">NA Values</h2>
+
+<p>Sometimes, when working with sample data, a given value isn’t available. But it’s not a good idea to just throw those values out. R has a value that explicitly indicates a sample was not available: NA. Many functions that work with vectors treat this value specially.</p>
+
+<p>We’ll create a vector for you with a missing sample, and store it in the a variable.</p>
+
+<p>Try to get the sum of its values, and see what the result is:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; a &lt;- c(1, 3, NA, 7, 9)
+&gt; sum(a)
+
+[1] NA
+</code></pre>
+</div>
+
+<p>The sum is considered “not available” by default because one of the vector’s values was NA. This is the responsible thing to do; R won’t just blithely add up the numbers without warning you about the incomplete data. We can explicitly tell sum (and many other functions) to remove NA values before they do their calculations, however.</p>
+
+<p>Remember that command to bring up help for a function? Bring up documentation for the sum function:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; help(sum)
+sum                    package:base                    R 
+Documentation
+
+Sum of Vector Elements
+
+Description:
+	'sum' returns the sum of all the values present in its arguments.
+
+Usage:
+	sum(..., na.rm = FALSE)
+...
+</code></pre>
+</div>
+
+<p>As you see in the documentation, sum can take an optional named argument, na.rm. It’s set to FALSE by default, but if you set it to TRUE, all NA arguments will be removed from the vector before the calculation is performed.</p>
+
+<p>Try calling sum again, with na.rm set to TRUE:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; sum(a, na.rm = TRUE)
+[1] 20
+</code></pre>
+</div>
+
+<h2 id="conclusion-in-chinese-1">Conclusion in Chinese</h2>
+
+<p>本章讲了R中两个最重要的数据结构之一：向量。
+有两种方式创造一个向量：<code class="highlighter-rouge">c('a','b','c')</code>和<code class="highlighter-rouge">seq(1,10,0.5)</code>; 前者既可以是数字也可以是字符，只要同一类型的就行，后者只能是序列数字，若间距为1的话可以直接简化为<code class="highlighter-rouge">1:10</code>。
+将向量付给一个变量<code class="highlighter-rouge">a</code>后，可以用<code class="highlighter-rouge">a[3]</code>查看和修改向量<code class="highlighter-rouge">a</code>中的第3个元素，可以用<code class="highlighter-rouge">names(a)</code>查看和修改a中各元素的名字。
+<code class="highlighter-rouge">barplot(a)</code>可以画出<code class="highlighter-rouge">a</code>的柱状图以及各值对应的名字，散点图例子：<code class="highlighter-rouge">x &lt;- seq(1,20,0.1)</code>; <code class="highlighter-rouge">y &lt;- sin(x)</code>; <code class="highlighter-rouge">plot(x,y)</code></p>
+
+<h1 id="matrices">Matrices</h1>
+
+<p>So far we’ve only worked with vectors, which are simple lists of values. What if you need data in rows and columns? Matrices are here to help.</p>
+
+<p>A matrix is just a fancy term for a 2-dimensional array. In this chapter, we’ll show you all the basics of working with matrices, from creating them, to accessing them, to plotting them.</p>
+
+<h2 id="matrices-1">Matrices</h2>
+
+<p>Let’s make a matrix 3 rows high by 4 columns wide, with all its fields set to 0.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; matrix(0, 3, 4)
+      [,1] [,2] [,3] [,4]
+[1,]    0    0    0    0
+[2,]    0    0    0    0
+[3,]    0    0    0    0
+</code></pre>
+</div>
+
+<p>You can also use a vector to initialize a matrix’s value. To fill a 3x4 matrix, you’ll need a 12-item vector. We’ll make that for you now:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; a &lt;- 1:12
+</code></pre>
+</div>
+
+<p>If we print the value of a, we’ll see the vector’s values, all in a single row:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; print(a)
+  [1]  1  2  3  4  5  6  7  8  9 10 11 12
+</code></pre>
+</div>
+
+<p>Now call matrix with the vector, the number of rows, and the number of columns:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; matrix(a, 3, 4)
+      [,1] [,2] [,3] [,4]
+[1,]    1    4    7   10
+[2,]    2    5    8   11
+[3,]    3    6    9   12
+</code></pre>
+</div>
+
+<p>The vector’s values are copied into the new matrix, one by one. You can also re-shape the vector itself into a matrix. Create an 8-item vector:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; plank &lt;- 1:8
+</code></pre>
+</div>
+
+<p>The dim assignment function sets dimensions for a matrix. It accepts a vector with the number of rows and the number of columns to assign.</p>
+
+<p>Assign new dimensions to plank by passing a vector specifying 2 rows and 4 columns (c(2, 4)):</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; dim(plank) &lt;- c(2, 4)
+</code></pre>
+</div>
+
+<p>If you print plank now, you’ll see that the values have shifted to form 2 rows by 4 columns:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; print(plank)
+      [,1] [,2] [,3] [,4]
+[1,]    1    3    5    7
+[2,]    2    4    6    8
+</code></pre>
+</div>
+
+<p>The vector is no longer one-dimensional. It has been converted, in-place, to a matrix.</p>
+
+<p>Now, use the matrix function to make a 5x5 matrix, with its fields initialized to any values you like.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; matrix(1, 5, 5)
+     [,1] [,2] [,3] [,4] [,5]
+[1,]    1    1    1    1    1
+[2,]    1    1    1    1    1
+[3,]    1    1    1    1    1
+[4,]    1    1    1    1    1
+[5,]    1    1    1    1    1
+</code></pre>
+</div>
+
+<h2 id="matrix-access">Matrix Access</h2>
+
+<p>Getting values from matrices isn’t that different from vectors; you just have to provide two indices instead of one.</p>
+
+<p>Let’s take another look at our plank matrix:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; print(plank)
+      [,1] [,2] [,3] [,4]
+[1,]    1    3    5    7
+[2,]    2    4    6    8
+</code></pre>
+</div>
+
+<p>Try getting the value from the second row in the third column of plank:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; plank[2, 3]
+[1] 6
+</code></pre>
+</div>
+
+<p>Now, try getting the value from first row of the fourth column:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; plank[1, 4]
+[1] 7
+</code></pre>
+</div>
+
+<p>As with vectors, to set a single value, just assign to it. Set the previous value to 0:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; plank[1, 4] &lt;- 0
+</code></pre>
+</div>
+
+<p>You can get an entire row of the matrix by omitting the column index (but keep the comma). Try retrieving the second row:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; plank[2,]
+[1] 2 4 0 8
+</code></pre>
+</div>
+
+<p>To get an entire column, omit the row index. Retrieve the fourth column:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; plank[, 4]
+[1] 7 8
+</code></pre>
+</div>
+
+<p>You can read multiple rows or columns by providing a vector or sequence with their indices. Try retrieving columns 2 through 4:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; plank[, 2:4]
+      [,1] [,2] [,3]
+[1,]    3    5    7
+[2,]    4    0    8
+</code></pre>
+</div>
+
+<h2 id="matrix-plotting">Matrix Plotting</h2>
+
+<p>Text output is only useful when matrices are small. When working with more complex data, you’ll need something better. Fortunately, R includes powerful visualizations for matrix data.</p>
+
+<p>We’ll start simple, with an elevation map of a sandy beach.</p>
+
+<p>It’s pretty flat - everything is 1 meter above sea level. We’ll create a 10 by 10 matrix with all its values initialized to 1 for you:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; elevation &lt;- matrix(1, 10, 10)
+</code></pre>
+</div>
+
+<p>Oh, wait, we forgot the spot where we dug down to sea level to retrieve a treasure chest. At the fourth row, sixth column, set the elevation to 0:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; elevation[4, 6] &lt;- 0
+</code></pre>
+</div>
+
+<p>You can now do a contour map of the values simply by passing the matrix to the contour function:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; contour(elevation)
+</code></pre>
+</div>
+
+<p>Or you can create a 3D perspective plot with the persp function:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; persp(elevation)
+</code></pre>
+</div>
+
+<p>The perspective plot looks a little odd, though. This is because persp automatically expands the view so that your highest value (the beach surface) is at the very top.</p>
+
+<p>We can fix that by specifying our own value for the expand parameter.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; persp(elevation, expand=0.2)
+</code></pre>
+</div>
+
+<p>Okay, those examples are a little simplistic. Thankfully, R includes some sample data sets to play around with. One of these is volcano, a 3D map of a dormant New Zealand volcano.</p>
+
+<p>It’s simply an 87x61 matrix with elevation values, but it shows the power of R’s matrix visualizations.</p>
+
+<p>Try creating a contour map of the volcano matrix:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; contour(volcano)
+</code></pre>
+</div>
+
+<p>Try a perspective plot (limit the vertical expansion to one-fifth again):</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; persp(volcano, expand=0.2)
+</code></pre>
+</div>
+
+<p>The image function will create a heat map:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; image(volcano)
+</code></pre>
+</div>
+
+<h2 id="conclusion-in-chinese-2">Conclusion in Chinese</h2>
+
+<p>这章其实就讲了一个函数：<code class="highlighter-rouge">matrix(a, 3, 4)</code>, <code class="highlighter-rouge">a</code>是事先定义好的一个数组向量或单个数字，用来填充这个3x4向量。把这个向量附值到m，则可以用<code class="highlighter-rouge">m[1,2]</code>查看或修改第1行第2列的元素，可以用<code class="highlighter-rouge">dim(m)</code>查看或修改这个矩阵的维数。
+接下来我们根据矩阵画了几个不同的图：
+<code class="highlighter-rouge">contour(a)</code>; <code class="highlighter-rouge">persp(a)</code>; <code class="highlighter-rouge">persp(a, expand=0.2)</code>; <code class="highlighter-rouge">contour(volcano)</code>; <code class="highlighter-rouge">persp(volcano, expand=0.2)</code>; <code class="highlighter-rouge">image(volcano)</code>大家可以让电脑出图感受一下。</p>
+
+<h1 id="summary-statistics">Summary Statistics</h1>
+
+<h2 id="mean">Mean</h2>
+
+<p>Determining the health of the crew is an important part of any inventory of the ship. Here’s a vector containing the number of limbs each member has left, along with their names.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>limbs &lt;- c(4, 3, 4, 3, 2, 4, 4, 4)
+names(limbs) &lt;- c('One-Eye', 'Peg-Leg', 'Smitty', 'Hook', 
+'Scooter', 'Dan', 'Mikey', 'Blackbeard')
+</code></pre>
+</div>
+
+<p>A quick way to assess our battle-readiness would be to get the average of the crew’s appendage counts. Statisticians call this the “mean”. Call the mean function with the limbs vector.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; mean(limbs)
+[1] 3.5
+</code></pre>
+</div>
+
+<p>An average closer to 4 would be nice, but this will have to do.</p>
+
+<p>Here’s a barplot of that vector:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; barplot(limbs)
+</code></pre>
+</div>
+
+<p>If we draw a line on the plot representing the mean, we can easily compare the various values to the average. The abline function can take an h parameter with a value at which to draw a horizontal line, or a v parameter for a vertical line. When it’s called, it updates the previous plot.</p>
+
+<p>Draw a horizontal line across the plot at the mean:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; abline(h = mean(limbs))
+</code></pre>
+</div>
+
+<h2 id="median">Median</h2>
+
+<p>Let’s say we gain a crew member that completely skews the mean.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; limbs &lt;- c(4, 3, 4, 3, 2, 4, 4, 14)
+&gt; names(limbs) &lt;- c('One-Eye', 'Peg-Leg', 'Smitty', 'Hook', 
+                    'Scooter', 'Dan', 'Mikey', 'Davy Jones')
+&gt; mean(limbs)
+[1] 4.75
+</code></pre>
+</div>
+
+<p>Let’s see how this new mean shows up on our same graph.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; barplot(limbs)
+&gt; abline(h = mean(limbs))
+</code></pre>
+</div>
+
+<p>It may be factually accurate to say that our crew has an average of 4.75 limbs, but it’s probably also misleading.</p>
+
+<p>For situations like this, it’s probably more useful to talk about the “median” value. The median is calculated by sorting the values and choosing the middle one (for sets with an even number of values, the middle two values are averaged).</p>
+
+<p>Call the median function on the vector:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; median(limbs)
+[1] 4
+</code></pre>
+</div>
+
+<p>That’s more like it. Let’s show the median on the plot. Draw a horizontal line across the plot at the median.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; abline(h = median(limbs))
+</code></pre>
+</div>
+
+<h2 id="standard-deviation">Standard Deviation</h2>
+
+<p>Some of the plunder from our recent raids has been worth less than what we’re used to. Here’s a vector with the values of our latest hauls:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; pounds &lt;- c(45000, 50000, 35000, 40000, 35000, 45000, 10000, 15000)
+&gt; barplot(pounds)
+&gt; meanValue &lt;- mean(pounds)
+</code></pre>
+</div>
+
+<p>et’s see a plot showing the mean value:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; abline(h = meanValue)
+</code></pre>
+</div>
+
+<p>These results seem way below normal. The crew wants to make Smitty, who picked the last couple ships to waylay, walk the plank. But as he dangles over the water, wily Smitty raises a question: what, exactly, is a “normal” haul?</p>
+
+<p>Statisticians use the concept of “standard deviation” from the mean to describe the range of typical values for a data set. For a group of numbers, it shows how much they typically vary from the average value. To calculate the standard deviation, you calculate the mean of the values, then subtract the mean from each number and square the result, then average those squares, and take the square root of that average.</p>
+
+<p>If that sounds like a lot of work, don’t worry. You’re using R, and all you have to do is pass a vector to the sd function. Try calling sd on the pounds vector now, and assign the result to the deviation variable:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; deviation &lt;- sd(pounds)
+&gt; deviation
+[1] 14500.62
+</code></pre>
+</div>
+
+<p>We’ll add a line on the plot to show one standard deviation above the mean (the top of the normal range)…</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; abline(h = meanValue + deviation)
+</code></pre>
+</div>
+
+<p>Hail to the sailor that brought us that 50,000-pound payday!</p>
+
+<p>Now try adding a line on the plot to show one standard devation below the mean (the bottom of the normal range):</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; abline(h = meanValue - deviation)
+</code></pre>
+</div>
+
+<p>We’re risking being hanged by the Spanish for this? Sorry, Smitty, you’re shark bait.</p>
+
+<h2 id="conclusion-in-chinese-3">Conclusion in Chinese</h2>
+
+<p>这章就更简单了，介绍了3个数据统计的函数: <code class="highlighter-rouge">mean(a)</code>，<code class="highlighter-rouge">median(a)</code>，<code class="highlighter-rouge">sd(a)</code>，分别对应数据a的平均值，中间值，标准差。用<code class="highlighter-rouge">barplot(a)</code>画完柱状图后可以用<code class="highlighter-rouge">abline(h = mean(a))</code>在上面加上平均值的线。
+w
+Factors
+===========</p>
+
+
+
+          
+<!-- Share Buttons Start -->
+<div>
+  <ul class="rrssb-buttons clearfix">
+    
+      <li class="rrssb-email">
+        <a href="mailto:?subject=陆小寻学堂——R语言&body=http://www.nano-er.com/tech/2016/04/02/r.html" data-proofer-ignore>
+          <span class="rrssb-icon">
+            <svg xmlns="https://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <path d="M20.11 26.147c-2.335 1.05-4.36 1.4-7.124 1.4C6.524 27.548.84 22.916.84 15.284.84 7.343 6.602.45 15.4.45c6.854 0 11.8 4.7 11.8 11.252 0 5.684-3.193 9.265-7.398 9.3-1.83 0-3.153-.934-3.347-2.997h-.077c-1.208 1.986-2.96 2.997-5.023 2.997-2.532 0-4.36-1.868-4.36-5.062 0-4.75 3.503-9.07 9.11-9.07 1.713 0 3.7.4 4.6.972l-1.17 7.203c-.387 2.298-.115 3.3 1 3.4 1.674 0 3.774-2.102 3.774-6.58 0-5.06-3.27-8.994-9.304-8.994C9.05 2.87 3.83 7.545 3.83 14.97c0 6.5 4.2 10.2 10 10.202 1.987 0 4.09-.43 5.647-1.245l.634 2.22zM16.647 10.1c-.31-.078-.7-.155-1.207-.155-2.572 0-4.596 2.53-4.596 5.53 0 1.5.7 2.4 1.9 2.4 1.44 0 2.96-1.83 3.31-4.088l.592-3.72z"
+              />
+            </svg>
+          </span>
+          <span class="rrssb-text">email</span>
+        </a>
+      </li>
+    
+    
+      <li class="rrssb-facebook">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.nano-er.com/tech/2016/04/02/r.html&title=陆小寻学堂——R语言" class="popup">
+          <span class="rrssb-icon">
+            <svg xmlns="https://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="29" height="29" viewBox="0 0 29 29"><path d="M26.4 0H2.6C1.714 0 0 1.715 0 2.6v23.8c0 .884 1.715 2.6 2.6 2.6h12.393V17.988h-3.996v-3.98h3.997v-3.062c0-3.746 2.835-5.97 6.177-5.97 1.6 0 2.444.173 2.845.226v3.792H21.18c-1.817 0-2.156.9-2.156 2.168v2.847h5.045l-.66 3.978h-4.386V29H26.4c.884 0 2.6-1.716 2.6-2.6V2.6c0-.885-1.716-2.6-2.6-2.6z"
+              class="cls-2" fill-rule="evenodd"/></svg>
+          </span>
+          <span class="rrssb-text">facebook</span>
+        </a>
+      </li>
+    
+    
+      <li class="rrssb-twitter">
+        <a href="https://twitter.com/share?url=http://www.nano-er.com/tech/2016/04/02/r.html&text=陆小寻学堂——R语言"
+        class="popup">
+          <span class="rrssb-icon"><svg xmlns="https://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"><path d="M24.253 8.756C24.69 17.08 18.297 24.182 9.97 24.62c-3.122.162-6.22-.646-8.86-2.32 2.702.18 5.375-.648 7.507-2.32-2.072-.248-3.818-1.662-4.49-3.64.802.13 1.62.077 2.4-.154-2.482-.466-4.312-2.586-4.412-5.11.688.276 1.426.408 2.168.387-2.135-1.65-2.73-4.62-1.394-6.965C5.574 7.816 9.54 9.84 13.802 10.07c-.842-2.738.694-5.64 3.434-6.48 2.018-.624 4.212.043 5.546 1.682 1.186-.213 2.318-.662 3.33-1.317-.386 1.256-1.248 2.312-2.4 2.942 1.048-.106 2.07-.394 3.02-.85-.458 1.182-1.343 2.15-2.48 2.71z"/></svg></span>
+          <span class="rrssb-text">twitter</span>
+        </a>
+      </li>
+    
+    
+      <li class="rrssb-linkedin">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.nano-er.com/tech/2016/04/02/r.html" class="popup">
+        <span class="rrssb-icon">
+          <svg xmlns="https://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+            <path d="M25.424 15.887v8.447h-4.896v-7.882c0-1.98-.71-3.33-2.48-3.33-1.354 0-2.158.91-2.514 1.802-.13.315-.162.753-.162 1.194v8.216h-4.9s.067-13.35 0-14.73h4.9v2.087c-.01.017-.023.033-.033.05h.032v-.05c.65-1.002 1.812-2.435 4.414-2.435 3.222 0 5.638 2.106 5.638 6.632zM5.348 2.5c-1.676 0-2.772 1.093-2.772 2.54 0 1.42 1.066 2.538 2.717 2.546h.032c1.71 0 2.77-1.132 2.77-2.546C8.056 3.593 7.02 2.5 5.344 2.5h.005zm-2.48 21.834h4.896V9.604H2.867v14.73z"
+            />
+          </svg>
+        </span>
+        <span class="rrssb-text">linkedin</span>
+      </a>
+      </li>
+    
+    
+      <li class="rrssb-reddit">
+        <a href="https://www.reddit.com/submit?url=http://www.nano-er.com/tech/2016/04/02/r.html&title=陆小寻学堂——R语言" target="_blank">
+          <span class="rrssb-icon">
+            <svg xmlns="https://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <path d="M11.794 15.316c0-1.03-.835-1.895-1.866-1.895-1.03 0-1.893.866-1.893 1.896s.863 1.9 1.9 1.9c1.023-.016 1.865-.916 1.865-1.9zM18.1 13.422c-1.03 0-1.895.864-1.895 1.895 0 1 .9 1.9 1.9 1.865 1.03 0 1.87-.836 1.87-1.865-.006-1.017-.875-1.917-1.875-1.895zM17.527 19.79c-.678.68-1.826 1.007-3.514 1.007h-.03c-1.686 0-2.834-.328-3.51-1.005-.264-.265-.693-.265-.958 0-.264.265-.264.7 0 1 .943.9 2.4 1.4 4.5 1.402.005 0 0 0 0 0 .005 0 0 0 0 0 2.066 0 3.527-.46 4.47-1.402.265-.264.265-.693.002-.958-.267-.334-.688-.334-.988-.043z"
+              />
+              <path d="M27.707 13.267c0-1.785-1.453-3.237-3.236-3.237-.792 0-1.517.287-2.08.76-2.04-1.294-4.647-2.068-7.44-2.218l1.484-4.69 4.062.955c.07 1.4 1.3 2.6 2.7 2.555 1.488 0 2.695-1.208 2.695-2.695C25.88 3.2 24.7 2 23.2 2c-1.06 0-1.98.616-2.42 1.508l-4.633-1.09c-.344-.082-.693.117-.803.454l-1.793 5.7C10.55 8.6 7.7 9.4 5.6 10.75c-.594-.45-1.3-.75-2.1-.72-1.785 0-3.237 1.45-3.237 3.2 0 1.1.6 2.1 1.4 2.69-.04.27-.06.55-.06.83 0 2.3 1.3 4.4 3.7 5.9 2.298 1.5 5.3 2.3 8.6 2.325 3.227 0 6.27-.825 8.57-2.325 2.387-1.56 3.7-3.66 3.7-5.917 0-.26-.016-.514-.05-.768.965-.465 1.577-1.565 1.577-2.698zm-4.52-9.912c.74 0 1.3.6 1.3 1.3 0 .738-.6 1.34-1.34 1.34s-1.343-.602-1.343-1.34c.04-.655.596-1.255 1.396-1.3zM1.646 13.3c0-1.038.845-1.882 1.883-1.882.31 0 .6.1.9.21-1.05.867-1.813 1.86-2.26 2.9-.338-.328-.57-.728-.57-1.26zm20.126 8.27c-2.082 1.357-4.863 2.105-7.83 2.105-2.968 0-5.748-.748-7.83-2.105-1.99-1.3-3.087-3-3.087-4.782 0-1.784 1.097-3.484 3.088-4.784 2.08-1.358 4.86-2.106 7.828-2.106 2.967 0 5.7.7 7.8 2.106 1.99 1.3 3.1 3 3.1 4.784C24.86 18.6 23.8 20.3 21.8 21.57zm4.014-6.97c-.432-1.084-1.19-2.095-2.244-2.977.273-.156.59-.245.928-.245 1.036 0 1.9.8 1.9 1.9-.016.522-.27 1.022-.57 1.327z"
+              />
+            </svg>
+          </span>
+          <span class="rrssb-text">reddit</span>
+        </a>
+      </li>
+    
+    
+      <li class="rrssb-googleplus">
+        <a href="https://plus.google.com/share?url=http://www.nano-er.com/tech/2016/04/02/r.html" class="popup">
+          <span class="rrssb-icon">
+            <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 8.29h-1.95v2.6h-2.6v1.82h2.6v2.6H21v-2.6h2.6v-1.885H21V8.29zM7.614 10.306v2.925h3.9c-.26 1.69-1.755 2.925-3.9 2.925-2.34 0-4.29-2.016-4.29-4.354s1.885-4.353 4.29-4.353c1.104 0 2.014.326 2.794 1.105l2.08-2.08c-1.3-1.17-2.924-1.883-4.874-1.883C3.65 4.586.4 7.835.4 11.8s3.25 7.212 7.214 7.212c4.224 0 6.953-2.988 6.953-7.082 0-.52-.065-1.104-.13-1.624H7.614z"/></svg>
+          </span>
+          <span class="rrssb-text">google+</span>
+        </a>
+      </li>
+    
+    
+      <li class="rrssb-tumblr">
+        <a href="https://tumblr.com/share/link?url=http://www.nano-er.com/tech/2016/04/02/r.html" target="_blank">
+          <span class="rrssb-icon">
+            <svg xmlns="https://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <path d="M18.02 21.842c-2.03.052-2.422-1.396-2.44-2.446v-7.294h4.73V7.874H15.6V1.592h-3.714s-.167.053-.182.186c-.218 1.935-1.144 5.33-4.988 6.688v3.637h2.927v7.677c0 2.8 1.7 6.7 7.3 6.6 1.863-.03 3.934-.795 4.392-1.453l-1.22-3.54c-.52.213-1.415.413-2.115.455z"
+              />
+            </svg>
+          </span>
+          <span class="rrssb-text">tumblr</span>
+        </a>
+      </li>
+    
+    
+      <li class="rrssb-pinterest">
+        <a href="https://pinterest.com/pin/create/button/?url=http://www.nano-er.com/tech/2016/04/02/r.html" target="_blank">
+          <span class="rrssb-icon">
+            <svg xmlns="https://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <path d="M14.02 1.57c-7.06 0-12.784 5.723-12.784 12.785S6.96 27.14 14.02 27.14c7.062 0 12.786-5.725 12.786-12.785 0-7.06-5.724-12.785-12.785-12.785zm1.24 17.085c-1.16-.09-1.648-.666-2.558-1.22-.5 2.627-1.113 5.146-2.925 6.46-.56-3.972.822-6.952 1.462-10.117-1.094-1.84.13-5.545 2.437-4.632 2.837 1.123-2.458 6.842 1.1 7.557 3.71.744 5.226-6.44 2.924-8.775-3.324-3.374-9.677-.077-8.896 4.754.19 1.178 1.408 1.538.49 3.168-2.13-.472-2.764-2.15-2.683-4.388.132-3.662 3.292-6.227 6.46-6.582 4.008-.448 7.772 1.474 8.29 5.24.58 4.254-1.815 8.864-6.1 8.532v.003z"
+              />
+            </svg>
+          </span>
+          <span class="rrssb-text">pinterest</span>
+        </a>
+      </li>
+    
+    
+      <li class="rrssb-pocket">
+        <a href="https://getpocket.com/save?url=http://www.nano-er.com/tech/2016/04/02/r.html">
+          <span class="rrssb-icon">
+            <svg width="32" height="28" viewBox="0 0 32 28" xmlns="http://www.w3.org/2000/svg">
+              <path d="M28.782.002c2.03.002 3.193 1.12 3.182 3.106-.022 3.57.17 7.16-.158 10.7-1.09 11.773-14.588 18.092-24.6 11.573C2.72 22.458.197 18.313.057 12.937c-.09-3.36-.05-6.72-.026-10.08C.04 1.113 1.212.016 3.02.008 7.347-.006 11.678.004 16.006.002c4.258 0 8.518-.004 12.776 0zM8.65 7.856c-1.262.135-1.99.57-2.357 1.476-.392.965-.115 1.81.606 2.496 2.453 2.334 4.91 4.664 7.398 6.966 1.086 1.003 2.237.99 3.314-.013 2.407-2.23 4.795-4.482 7.17-6.747 1.203-1.148 1.32-2.468.365-3.426-1.01-1.014-2.302-.933-3.558.245-1.596 1.497-3.222 2.965-4.75 4.526-.706.715-1.12.627-1.783-.034-1.597-1.596-3.25-3.138-4.93-4.644-.47-.42-1.123-.647-1.478-.844z"
+              />
+            </svg>
+          </span>
+          <span class="rrssb-text">pocket</span>
+        </a>
+      </li>
+    
+    
+      <li class="rrssb-vk">
+        <a href="https://vk.com/share.php?url=http://www.nano-er.com/tech/2016/04/02/r.html" class="popup">
+          <span class="rrssb-icon">
+            <svg xmlns="https://www.w3.org/2000/svg" width="28" height="28" viewBox="70 70 378.7 378.7"><path d="M254.998 363.106h21.217s6.408-.706 9.684-4.23c3.01-3.24 2.914-9.32 2.914-9.32s-.415-28.47 12.796-32.663c13.03-4.133 29.755 27.515 47.482 39.685 13.407 9.206 23.594 7.19 23.594 7.19l47.407-.662s24.797-1.53 13.038-21.027c-.96-1.594-6.85-14.424-35.247-40.784-29.728-27.59-25.743-23.126 10.063-70.85 21.807-29.063 30.523-46.806 27.8-54.405-2.596-7.24-18.636-5.326-18.636-5.326l-53.375.33s-3.96-.54-6.892 1.216c-2.87 1.716-4.71 5.726-4.71 5.726s-8.452 22.49-19.714 41.618c-23.77 40.357-33.274 42.494-37.16 39.984-9.037-5.842-6.78-23.462-6.78-35.983 0-39.112 5.934-55.42-11.55-59.64-5.802-1.4-10.076-2.327-24.915-2.48-19.046-.192-35.162.06-44.29 4.53-6.072 2.975-10.757 9.6-7.902 9.98 3.528.47 11.516 2.158 15.75 7.92 5.472 7.444 5.28 24.154 5.28 24.154s3.145 46.04-7.34 51.758c-7.193 3.922-17.063-4.085-38.253-40.7-10.855-18.755-19.054-39.49-19.054-39.49s-1.578-3.873-4.398-5.947c-3.42-2.51-8.2-3.307-8.2-3.307l-50.722.33s-7.612.213-10.41 3.525c-2.488 2.947-.198 9.036-.198 9.036s39.707 92.902 84.672 139.72c41.234 42.93 88.048 40.112 88.048 40.112"/></svg>
+          </span>
+          <span class="rrssb-text">vk.com</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+<!-- Share Buttons End -->
+
+
+          
+
+<!-- 多说评论框 start -->
+  <div class="ds-thread" data-thread-key="/tech/2016/04/02/r" data-title="陆小寻学堂——R语言" data-url="www.nano-er.com/tech/2016/04/02/r.html"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"nano-er"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+  </script>
+<!-- 多说公共JS代码 end -->
+
+          <hr />
+
+          
+          <div class="author row">
+            <img class="col-xs-4 col-sm-3 col-md-2" src="/img/author.png" alt="Me" />
+            <p class="col-xs-8 col-sm-9 col-md-10">
+              我是刘鑫，上园村单身好青年，喜欢弹吉他、打篮球、摄影、编程、设计、物理，
+理想是当一只浪漫科研狗。
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    
+ <!-- Footer Start -->
+
+<footer>
+
+    
+<!-- Social Buttons Start -->
+
+<ul class="list-inline social-buttons">
+  
+    <li><a href="http://liuxin.in/" target="_blank"><i class="fa fa-child fa-fw"></i></a></li>
+  
+    <li><a href="http://weibo.com/u/2377304267?refer_flag=1001030102_&is_all=1" target="_blank"><i class="fa fa-weibo fa-fw"></i></a></li>
+  
+    <li><a href="http://github.com/x399liu" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
+  
+    <li><a href="https://mp.weixin.qq.com/s?__biz=MjM5MzgzMjI5OQ==&mid=2649984218&idx=1&sn=132d15e4665242aca49f554e8fd72c8d&scene=0&key=b28b03434249256b7f4e5074dc162b5f2b9533622ad9475ce32dcfb1965edfd88315d03a44855f606648d3d7edc6bc05&ascene=0&uin=OTA3NjA0MzA3&devicetype=iMac+MacBookAir6%2C2+OSX+OSX+10.11.3+build(15D21)&version=11020201&pass_ticket=7cBTLaDpoX9ZJONWhvpex1bTYeKU3PLAzxT6VNgHodygKTbDMycQXz23bOcTnrqO" target="_blank"><i class="fa fa-weixin fa-fw"></i></a></li>
+  
+    <li><a href="/feed.xml" target="_blank"><i class="fa fa-rss fa-fw"></i></a></li>
+  
+</ul>
+
+<!-- Social Buttons End -->
+
+
+    <p><br><br></p>
+
+    <div class="container text-center">
+      <p>Copyright &copy; Liu Xin 2016</p>
+    </div>
+</footer>
+
+<p><br><br><br><br><br><br></p>
+
+<!-- Footer End -->
+
+
+    
+<!-- Javascript Start -->
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<!--* Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+* Code licensed under the Apache License v2.0.
+* For details, see http://www.apache.org/licenses/LICENSE-2.0.-->
+<script>
+function toggleNavCollapse(){50<$(".navbar").offset().top?$(".navbar-fixed-top").addClass("top-nav-collapse"):$(".navbar-fixed-top").removeClass("top-nav-collapse");}
+$(document).ready(toggleNavCollapse);
+$(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click",function(b){var a=$(this);$("html, body").stop().animate({scrollTop:$(a.attr("href")).offset().top-50},1500,"easeInOutExpo",function(){a.blur()});b.preventDefault()})});$(".navbar-collapse ul li a").click(function(){$(".navbar-toggle:visible").click()});
+</script>
+
+
+
+
+
+  <!-- Syntax highlight in post pages-->
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+
+
+  <!-- Share buttons Start -->
+
+  <script src="/js/rrssb.min.js"></script>
+
+  <!-- Share buttons End -->
+
+
+
+
+
+<script>
+function addTohistory() {
+  if (!window.location.host.startsWith("127.0.0.1")) {
+    history.pushState({}, '陆小寻学堂——R语言', 'http://www.nano-er.com/tech/2016/04/02/r.html');
+  }
+}
+</script>
+
+
+
+  <!-- Post Gesture Navigation Start -->
+
+  <script type="text/javascript" src="/js/hammer.min.js"></script>
+
+  <script>
+    var post = document.getElementById('post');
+
+    new Hammer(post).on('swipeleft', function(event) {
+      addTohistory();
+      
+        document.location.replace("/diary/2016/04/02/4%E6%9C%88%E4%BD%A0%E5%A5%BD.html");
+      
+    });
+
+    new Hammer(post).on('swiperight', function(event) {
+      addTohistory();
+      
+        document.location.replace("/web/2016/04/02/%E6%96%B0%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD.html");
+      
+    });
+  </script>
+
+  <!-- Post Gesture Navigation Start -->
+
+
+
+
+
+
+
+
+
+  <!-- Swipe Instructions for Post Start -->
+
+  <script>
+    $(document).ready(function(){
+      if(!localStorage.getItem('post-swipeshowed')){
+        $("#swipe-instruction").fadeIn();
+        $("#swipe-instruction .close-swipe-instruction").click(function(){
+          $("#swipe-instruction").fadeOut();
+        });
+        localStorage.setItem('post-swipeshowed', true);
+      }
+    });
+  </script>
+
+  <!-- Swipe Instructions for Post End -->
+
+
+
+<!-- Javascript End -->
+
+
+  </body>
+</html>
+
+<!-- Post Layout End -->

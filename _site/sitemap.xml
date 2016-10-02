@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+        <loc>http://www.nano-er.com/blog/</loc>
+        
+          
+          
+          
+          <priority>1.0</priority>
+          
+        
+       </url>
+    
+  
+    
+      <url>
+        <loc>http://www.nano-er.com/</loc>
+        
+          
+          
+          
+          <priority>1.0</priority>
+          
+        
+       </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+        <loc>http://www.nano-er.com/blog/page2/</loc>
+        
+          
+          
+          
+          <priority>1.0</priority>
+          
+        
+       </url>
+    
+  
+  
+    <url>
+      <loc>http://www.nano-er.com/diary/2016/09/30/chem.html</loc>
+      
+        <lastmod>2016-09-30T00:00:00-04:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://www.nano-er.com/2016/09/30/chem.html</loc>
+      
+        <lastmod>2016-09-30T00:00:00-04:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://www.nano-er.com/diary/2016/09/10/tonight.html</loc>
+      
+        <lastmod>2016-09-10T00:00:00-04:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://www.nano-er.com/politics/2016/05/15/politics.html</loc>
+      
+        <lastmod>2016-05-15T00:00:00-04:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://www.nano-er.com/tech/2016/04/17/matlab.html</loc>
+      
+        <lastmod>2016-04-17T00:00:00-04:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://www.nano-er.com/tech/2016/04/03/ruby.html</loc>
+      
+        <lastmod>2016-04-03T00:00:00-04:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://www.nano-er.com/web/2016/04/02/%E6%96%B0%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD.html</loc>
+      
+        <lastmod>2016-04-02T00:00:00-04:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://www.nano-er.com/tech/2016/04/02/r.html</loc>
+      
+        <lastmod>2016-04-02T00:00:00-04:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://www.nano-er.com/diary/2016/04/02/4%E6%9C%88%E4%BD%A0%E5%A5%BD.html</loc>
+      
+        <lastmod>2016-04-02T00:00:00-04:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://www.nano-er.com/diary/2016/04/01/%E6%84%9A%E4%BA%BA%E8%8A%82%E5%BF%AB%E4%B9%90.html</loc>
+      
+        <lastmod>2016-04-01T00:00:00-04:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://www.nano-er.com/me/2015/05/25/formatting-samples.html</loc>
+      
+        <lastmod>2015-05-25T00:00:00-04:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://www.nano-er.com/politics/2015/01/01/works.html</loc>
+      
+        <lastmod>2015-01-01T00:00:00-05:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+</urlset>
