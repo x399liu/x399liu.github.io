@@ -62,7 +62,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Hi, this is Harry (LIU XIN)"
+  - text: "Hi, my name is Xin"
   - text: "Welcome to the Nano world."
 
 me-img: "/img/jetpacktocat.png"
