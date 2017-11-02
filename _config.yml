@@ -118,6 +118,16 @@ syntax-highlight: True
 ############
 
 events:
+
+  - image: "/img/timeline/2017-4.png"
+    date: "April 2017"
+    description: "魁北克"  
+  - image: "/img/timeline/2016-12.png"
+    date: "Dec 2016"
+    description: "温哥华"
+  - image: "/img/timeline/2016-9.png"
+    date: "Sep 2016"
+    description: "滑铁卢大学"
   - image: "/img/timeline/2016-8.png"
     date: "Aug 2016"
     description: "初到加拿大"
