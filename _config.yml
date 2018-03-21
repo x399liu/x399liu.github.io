@@ -164,7 +164,7 @@ email: "15514657777@163.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "我叫刘鑫，喜欢弹吉他、打篮球、滑雪、摄影、编程、设计、物理仿真模拟。"
+author_blurb: "喜欢弹吉他、打篮球、滑雪、摄影、编程、设计、物理仿真模拟。"
 author_blurb_image: "/img/author.png"
 
 ##################
